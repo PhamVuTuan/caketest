@@ -9,6 +9,8 @@ class TestsController extends AppController
         $arr = array(1,2,3,4);
 
         $this->set('data',$arr);
+
+        echo 123; exit;
     }
 
 }
